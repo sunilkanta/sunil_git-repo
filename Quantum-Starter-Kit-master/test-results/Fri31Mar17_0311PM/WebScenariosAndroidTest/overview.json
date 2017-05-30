@@ -1,0 +1,89 @@
+{
+  "total": 8,
+  "pass": 8,
+  "fail": 0,
+  "skip": 0,
+  "classes": [
+    "com.qmetry.qaf.automation.step.client.Scenario",
+    "com.qmetry.qaf.automation.step.client.DataDrivenScenario"
+  ],
+  "envInfo": {
+    "browser-desired-capabilities": {
+      "password": "demo123",
+      "automationName": "Appium",
+      "takesScreenshot": true,
+      "browserName": "MobileOS",
+      "javascriptEnabled": true,
+      "model": "Galaxy.*",
+      "user": "is_user1@infostretch.com",
+      "cssSelectorsEnabled": true
+    },
+    "browser-actual-capabilities": {
+      "reportPdfUrl": "https://partners.reporting-01.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_17-03-31_09_41_07_36475",
+      "available": "false",
+      "description": "SmartBearMonitoringPair",
+      "language": "English",
+      "deviceName": "1015FA7BCD813803",
+      "deviceId": "1015FA7BCD813803",
+      "resolution": "1440x2560",
+      "platform": "ANY",
+      "wifiMacAddress": "00:ae:fa:68:14:64",
+      "manufacturer": "Samsung",
+      "mode": "CONNECTED",
+      "password": "",
+      "cradleId": "WF-CG29-44/VIRTUAL/02",
+      "osVersion": "6.0.1",
+      "automationName": "Appium",
+      "host": "partners.perfectomobile.com",
+      "singleTestReportUrl": "https://partners.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/170331/RemoteWebDriver_17-03-31_09_41_07_36475.xml&ownerId=is_user1@infostretch.com&sharingCode=60144b4e-2462-4090-9e84-ecf4a068fab7",
+      "inUse": "true",
+      "takesScreenshot": "true",
+      "browserName": "MobileOS",
+      "javascriptEnabled": "true",
+      "model": "Galaxy S6",
+      "firmware": "zerofltexx-user 6.0.1 MMB29K G920FXXS4DPJL release-keys",
+      "rotatable": "true",
+      "testGridReportUrl": "https://partners.reporting-01.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_17-03-31_09_41_07_36475",
+      "os": "Android",
+      "entityType": "remote_web_driver",
+      "allocatedTo": "is_user1@infostretch.com",
+      "offlineToken": "",
+      "serverConnector": "",
+      "executionId": "is_user1@infostretch.com_RemoteWebDriver_17-03-31_09_41_07_36475",
+      "webdriver.remote.sessionid": "c0a32554-29b3-4724-82fa-7921018ec2c6",
+      "locationContextEnabled": "true",
+      "scriptName": "RemoteWebDriver",
+      "location": "NA-US-BOS",
+      "linkType": "lab",
+      "reportKey": "PRIVATE:RemoteWebDriver/170331/RemoteWebDriver_17-03-31_09_41_07_36475.xml",
+      "windTunnelReportUrl": "https://partners.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/170331/RemoteWebDriver_17-03-31_09_41_07_36475.xml&ownerId=is_user1@infostretch.com&sharingCode=60144b4e-2462-4090-9e84-ecf4a068fab7",
+      "user": "",
+      "operabilityRatingScore": "100",
+      "cssSelectorsEnabled": "true",
+      "status": "Connected"
+    },
+    "isfw-build-info": {
+      "qaf-Type": "core",
+      "qaf-Revision": "10-RC2",
+      "qaf-Version": "2.1",
+      "qaf-Build-Time": "30-Nov-2016 00:39:15"
+    },
+    "run-parameters": {
+      "driver.capabilities.model": "Galaxy.*",
+      "resources": "src/main/resources/common",
+      "baseurl": ""
+    },
+    "execution-env-info": {
+      "java.arch": "64",
+      "java.vendor": "Oracle Corporation",
+      "java.version": "1.8.0_111",
+      "os.arch": "amd64",
+      "host": "ICPL11541",
+      "os.name": "Windows 8",
+      "user.name": "sunilkanta.das",
+      "os.version": "6.2"
+    }
+  },
+  "startTime": 1490953294713,
+  "endTime": 1490953363675
+}

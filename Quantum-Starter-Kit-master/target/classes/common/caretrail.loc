@@ -1,0 +1,3 @@
+email.email.address = {\"locator\":\"xpath=.//*[@id='body-content']/authentication/div/login/form/input[1]\",\"desc\":\"Email address email\"}
+password.password = {\"locator\":\"xpath=.//*[@id='body-content']/authentication/div/login/form/input[2]\",\"desc\":\"Password password\"}
+span.span = {\"locator\":\"xpath=.//*[@id='body-content']/authentication/div/login/form/button/span\",\"desc\":\"Text span\"}

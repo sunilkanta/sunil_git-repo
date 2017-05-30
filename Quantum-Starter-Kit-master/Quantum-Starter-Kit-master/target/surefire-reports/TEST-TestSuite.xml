@@ -1,0 +1,826 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="545.539" tests="16" errors="0" skipped="16" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_111\bin"/>
+    <property name="java.vm.version" value="25.111-b14"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\Quantum-Starter-Kit-master\Quantum-Starter-Kit-master"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\Quantum-Starter-Kit-master\Quantum-Starter-Kit-master"/>
+    <property name="java.runtime.version" value="1.8.0_111-b14"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_111\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\SUNILK~1.DAS\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 8"/>
+    <property name="classworlds.conf" value="C:\Users\sunilkanta.das\quantum\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf421225783506239717.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_111\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Skype\Phone\;C:\Users\sagar.hagwane\Downloads\curl-7.50.3-win32-mingw\bin;C:\Program Files\nodejs\;C:\Program Files\TortoiseSVN\bin;D:\Software\android-sdks\tools;D:\Software\android-sdks\platform-tools;C:\Program Files\Java\jdk1.8.0_111\bin;C:\apache-ant-1.10.1\bin;D:\apache-maven-3.3.9-bin\apache-maven-3.3.9\bin;C:\Program Files\Java\jdk1.8.0_111\bin;C:\Program Files\TortoiseGit\bin;C:\Users\sunilkanta.das\AppData\Local\Programs\Python\Python36-32\Scripts\;C:\Users\sunilkanta.das\AppData\Local\Programs\Python\Python36-32\;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.2"/>
+    <property name="user.home" value="C:\Users\sunilkanta.das"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="sunilkanta.das"/>
+    <property name="java.class.path" value="/C:/Users/sunilkanta.das/eclipse/jee-neon/eclipse/../../../.p2/pool/plugins/org.eclipse.m2e.maven.runtime_1.7.0.20160603-1931/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jre1.8.0_111"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_111"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_111\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_111\lib\resources.jar;C:\Program Files\Java\jre1.8.0_111\lib\rt.jar;C:\Program Files\Java\jre1.8.0_111\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_111\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_111\lib\jce.jar;C:\Program Files\Java\jre1.8.0_111\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_111\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_111\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="D:\Quantum-Starter-Kit-master\Quantum-Starter-Kit-master\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="Search Quantum" classname="com.qmetry.qaf.automation.step.client.Scenario" time="0">
+    <skipped message="Timed out after 60 seconds: Unable to create driver instance in 7th attempt with retry timeout of 60 seconds. You can check/set value of &apos;driver.init.retry.timeout&apos; appropriately to set retry timeout on driver initialization failure.&#10;Failed to start execution - Access denied - bad credentials&#10;Command duration or timeout: 251 milliseconds&#10;Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;&#10;System info: host: &apos;ICPL11541&apos;, ip: &apos;10.11.31.182&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.8.0_111&apos;&#10;Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver"/>
+    <system-out><![CDATA[main: ISFW build info: {qaf-Type=core, qaf-Revision=10-RC2, qaf-Version=2.1, qaf-Build-Time=30-Nov-2016 00:39:15} 
+main: Resource dir: D:\Quantum-Starter-Kit-master\Quantum-Starter-Kit-master\src\main\resources\common. Found property files to load: 0 
+main: Resource dir: D:\Quantum-Starter-Kit-master\Quantum-Starter-Kit-master\src\main\resources\common. Found property files to load: 1 
+include groups [@Web]
+ exclude groups: [] Scanarios location: src/main/resources/scenarios 
+include groups [@Web]
+ exclude groups: [] Scanarios location: src/main/resources/scenarios 
+ Scenario MethodName: Search Quantum
+ Scenario MethodName: Search Quantum with results
+ Scenario MethodName: Search Keyword XML Data
+ Scenario MethodName: Search Keyword Inline Data
+ Scenario MethodName: Search Keyword CSV Data
+ Scenario MethodName: Search Quantum
+ Scenario MethodName: Search Quantum with results
+ Scenario MethodName: Search Keyword XML Data
+ Scenario MethodName: Search Keyword Inline Data
+ Scenario MethodName: Search Keyword CSV Data
+TestNG: Initializing Driver...browser_str:perfectoRemoteDriver,base_url:,sel_server:https://partners.perfectomobile.com/nexperience/perfectomobile/wd/hub,port:80 
+TestNG: Initializing Driver...browser_str:perfectoRemoteDriver,base_url:,sel_server:https://partners.perfectomobile.com/nexperience/perfectomobile/wd/hub,port:80 
+TestNG: Driver: perfectoRemoteDriver 
+TestNG: Driver: perfectoRemoteDriver 
+TestNG: Driver: perfectoRemoteDriver 
+TestNG: Driver: perfectoRemoteDriver 
+TestNG: Driver: perfectoRemoteDriver 
+TestNG: Driver: perfectoRemoteDriver 
+TestNG: Driver: perfectoRemoteDriver 
+TestNG: Driver: perfectoRemoteDriver 
+TestNG: Driver: perfectoRemoteDriver 
+TestNG: Driver: perfectoRemoteDriver 
+TestNG: Driver: perfectoRemoteDriver 
+TestNG: Driver: perfectoRemoteDriver 
+TestNG: Driver: perfectoRemoteDriver 
+TestNG: Driver: perfectoRemoteDriver 
+]]></system-out>
+    <system-err><![CDATA[Unable to create driver instance in 1st attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.Unable to Create Driver Instance Failed to start execution - Access denied - bad credentials
+Command duration or timeout: 1.69 seconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11541', ip: '10.11.31.182', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Unable to create driver instance in 1st attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.Unable to Create Driver Instance Failed to start execution - Access denied - bad credentials
+Command duration or timeout: 1.69 seconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11541', ip: '10.11.31.182', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Unable to create driver instance in 2nd attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.Unable to Create Driver Instance Failed to start execution - Access denied - bad credentials
+Command duration or timeout: 254 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11541', ip: '10.11.31.182', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Unable to create driver instance in 2nd attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.Unable to Create Driver Instance Failed to start execution - Access denied - bad credentials
+Command duration or timeout: 265 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11541', ip: '10.11.31.182', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Unable to create driver instance in 3rd attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.Unable to Create Driver Instance Failed to start execution - Access denied - bad credentials
+Command duration or timeout: 293 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11541', ip: '10.11.31.182', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Unable to create driver instance in 3rd attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.Unable to Create Driver Instance Failed to start execution - Access denied - bad credentials
+Command duration or timeout: 319 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11541', ip: '10.11.31.182', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Unable to create driver instance in 4th attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.Unable to Create Driver Instance Failed to start execution - Access denied - bad credentials
+Command duration or timeout: 251 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11541', ip: '10.11.31.182', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Unable to create driver instance in 4th attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.Unable to Create Driver Instance Failed to start execution - Access denied - bad credentials
+Command duration or timeout: 455 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11541', ip: '10.11.31.182', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Unable to create driver instance in 5th attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.Unable to Create Driver Instance Failed to start execution - Access denied - bad credentials
+Command duration or timeout: 228 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11541', ip: '10.11.31.182', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Unable to create driver instance in 5th attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.Unable to Create Driver Instance Failed to start execution - Access denied - bad credentials
+Command duration or timeout: 250 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11541', ip: '10.11.31.182', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Unable to create driver instance in 6th attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.Unable to Create Driver Instance Failed to start execution - Access denied - bad credentials
+Command duration or timeout: 251 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11541', ip: '10.11.31.182', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Unable to create driver instance in 6th attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.Unable to Create Driver Instance Failed to start execution - Access denied - bad credentials
+Command duration or timeout: 267 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11541', ip: '10.11.31.182', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Unable to create driver instance in 7th attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.Unable to Create Driver Instance Failed to start execution - Access denied - bad credentials
+Command duration or timeout: 251 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11541', ip: '10.11.31.182', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+]]></system-err>
+  </testcase>
+  <testcase name="Search Quantum" classname="com.qmetry.qaf.automation.step.client.Scenario" time="0">
+    <skipped message="Timed out after 60 seconds: Unable to create driver instance in 7th attempt with retry timeout of 60 seconds. You can check/set value of &apos;driver.init.retry.timeout&apos; appropriately to set retry timeout on driver initialization failure.&#10;Failed to start execution - Access denied - bad credentials&#10;Command duration or timeout: 267 milliseconds&#10;Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;&#10;System info: host: &apos;ICPL11541&apos;, ip: &apos;10.11.31.182&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.8.0_111&apos;&#10;Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver"/>
+    <system-out><![CDATA[TestNG: Initializing Driver...browser_str:perfectoRemoteDriver,base_url:,sel_server:https://partners.perfectomobile.com/nexperience/perfectomobile/wd/hub,port:80 
+TestNG: Driver: perfectoRemoteDriver 
+]]></system-out>
+    <system-err><![CDATA[Unable to create driver instance in 7th attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.Unable to Create Driver Instance Failed to start execution - Access denied - bad credentials
+Command duration or timeout: 267 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11541', ip: '10.11.31.182', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+]]></system-err>
+  </testcase>
+  <testcase name="Search Quantum with results" classname="com.qmetry.qaf.automation.step.client.Scenario" time="0">
+    <skipped message="Timed out after 60 seconds: Unable to create driver instance in 7th attempt with retry timeout of 60 seconds. You can check/set value of &apos;driver.init.retry.timeout&apos; appropriately to set retry timeout on driver initialization failure.&#10;Failed to start execution - Access denied - bad credentials&#10;Command duration or timeout: 251 milliseconds&#10;Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;&#10;System info: host: &apos;ICPL11541&apos;, ip: &apos;10.11.31.182&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.8.0_111&apos;&#10;Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver"/>
+    <system-out><![CDATA[TestNG: Initializing Driver...browser_str:perfectoRemoteDriver,base_url:,sel_server:https://partners.perfectomobile.com/nexperience/perfectomobile/wd/hub,port:80 
+TestNG: Driver: perfectoRemoteDriver 
+TestNG: Driver: perfectoRemoteDriver 
+TestNG: Driver: perfectoRemoteDriver 
+TestNG: Driver: perfectoRemoteDriver 
+TestNG: Driver: perfectoRemoteDriver 
+TestNG: Driver: perfectoRemoteDriver 
+TestNG: Driver: perfectoRemoteDriver 
+TestNG: Driver: perfectoRemoteDriver 
+TestNG: Driver: perfectoRemoteDriver 
+TestNG: Driver: perfectoRemoteDriver 
+TestNG: Driver: perfectoRemoteDriver 
+TestNG: Driver: perfectoRemoteDriver 
+]]></system-out>
+    <system-err><![CDATA[Unable to create driver instance in 1st attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.Unable to Create Driver Instance Failed to start execution - Access denied - bad credentials
+Command duration or timeout: 250 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11541', ip: '10.11.31.182', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Unable to create driver instance in 1st attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.Unable to Create Driver Instance Failed to start execution - Access denied - bad credentials
+Command duration or timeout: 234 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11541', ip: '10.11.31.182', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Unable to create driver instance in 2nd attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.Unable to Create Driver Instance Failed to start execution - Access denied - bad credentials
+Command duration or timeout: 233 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11541', ip: '10.11.31.182', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Unable to create driver instance in 2nd attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.Unable to Create Driver Instance Failed to start execution - Access denied - bad credentials
+Command duration or timeout: 235 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11541', ip: '10.11.31.182', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Unable to create driver instance in 3rd attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.Unable to Create Driver Instance Failed to start execution - Access denied - bad credentials
+Command duration or timeout: 237 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11541', ip: '10.11.31.182', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Unable to create driver instance in 3rd attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.Unable to Create Driver Instance Failed to start execution - Access denied - bad credentials
+Command duration or timeout: 231 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11541', ip: '10.11.31.182', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Unable to create driver instance in 4th attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.Unable to Create Driver Instance Failed to start execution - Access denied - bad credentials
+Command duration or timeout: 267 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11541', ip: '10.11.31.182', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Unable to create driver instance in 4th attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.Unable to Create Driver Instance Failed to start execution - Access denied - bad credentials
+Command duration or timeout: 266 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11541', ip: '10.11.31.182', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Unable to create driver instance in 5th attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.Unable to Create Driver Instance Failed to start execution - Access denied - bad credentials
+Command duration or timeout: 251 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11541', ip: '10.11.31.182', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Unable to create driver instance in 5th attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.Unable to Create Driver Instance Failed to start execution - Access denied - bad credentials
+Command duration or timeout: 251 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11541', ip: '10.11.31.182', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Unable to create driver instance in 6th attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.Unable to Create Driver Instance Failed to start execution - Access denied - bad credentials
+Command duration or timeout: 223 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11541', ip: '10.11.31.182', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Unable to create driver instance in 6th attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.Unable to Create Driver Instance Failed to start execution - Access denied - bad credentials
+Command duration or timeout: 1.25 seconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11541', ip: '10.11.31.182', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Unable to create driver instance in 7th attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.Unable to Create Driver Instance Failed to start execution - Access denied - bad credentials
+Command duration or timeout: 251 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11541', ip: '10.11.31.182', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+]]></system-err>
+  </testcase>
+  <testcase name="Search Quantum with results" classname="com.qmetry.qaf.automation.step.client.Scenario" time="0">
+    <skipped message="Timed out after 60 seconds: Unable to create driver instance in 7th attempt with retry timeout of 60 seconds. You can check/set value of &apos;driver.init.retry.timeout&apos; appropriately to set retry timeout on driver initialization failure.&#10;Failed to start execution - Access denied - bad credentials&#10;Command duration or timeout: 251 milliseconds&#10;Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;&#10;System info: host: &apos;ICPL11541&apos;, ip: &apos;10.11.31.182&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.8.0_111&apos;&#10;Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver"/>
+    <system-out><![CDATA[TestNG: Initializing Driver...browser_str:perfectoRemoteDriver,base_url:,sel_server:https://partners.perfectomobile.com/nexperience/perfectomobile/wd/hub,port:80 
+TestNG: Driver: perfectoRemoteDriver 
+TestNG: Driver: perfectoRemoteDriver 
+]]></system-out>
+    <system-err><![CDATA[Unable to create driver instance in 1st attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.Unable to Create Driver Instance Failed to start execution - Access denied - bad credentials
+Command duration or timeout: 234 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11541', ip: '10.11.31.182', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Unable to create driver instance in 7th attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.Unable to Create Driver Instance Failed to start execution - Access denied - bad credentials
+Command duration or timeout: 251 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11541', ip: '10.11.31.182', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+]]></system-err>
+  </testcase>
+  <testcase name="Search Keyword Inline Data" classname="com.qmetry.qaf.automation.step.client.DataDrivenScenario" time="0">
+    <skipped message="Timed out after 60 seconds: Unable to create driver instance in 6th attempt with retry timeout of 60 seconds. You can check/set value of &apos;driver.init.retry.timeout&apos; appropriately to set retry timeout on driver initialization failure.&#10;Failed to start execution - Access denied - bad credentials&#10;Command duration or timeout: 282 milliseconds&#10;Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;&#10;System info: host: &apos;ICPL11541&apos;, ip: &apos;10.11.31.182&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.8.0_111&apos;&#10;Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver"/>
+    <system-out><![CDATA[TestNG: Initializing Driver...browser_str:perfectoRemoteDriver,base_url:,sel_server:https://partners.perfectomobile.com/nexperience/perfectomobile/wd/hub,port:80 
+TestNG: Driver: perfectoRemoteDriver 
+TestNG: Driver: perfectoRemoteDriver 
+TestNG: Driver: perfectoRemoteDriver 
+TestNG: Driver: perfectoRemoteDriver 
+TestNG: Driver: perfectoRemoteDriver 
+TestNG: Driver: perfectoRemoteDriver 
+TestNG: Driver: perfectoRemoteDriver 
+TestNG: Driver: perfectoRemoteDriver 
+TestNG: Driver: perfectoRemoteDriver 
+TestNG: Driver: perfectoRemoteDriver 
+]]></system-out>
+    <system-err><![CDATA[Unable to create driver instance in 1st attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.Unable to Create Driver Instance Failed to start execution - Access denied - bad credentials
+Command duration or timeout: 484 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11541', ip: '10.11.31.182', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Unable to create driver instance in 2nd attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.Unable to Create Driver Instance Failed to start execution - Access denied - bad credentials
+Command duration or timeout: 235 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11541', ip: '10.11.31.182', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Unable to create driver instance in 2nd attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.Unable to Create Driver Instance Failed to start execution - Access denied - bad credentials
+Command duration or timeout: 235 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11541', ip: '10.11.31.182', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Unable to create driver instance in 3rd attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.Unable to Create Driver Instance Failed to start execution - Access denied - bad credentials
+Command duration or timeout: 267 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11541', ip: '10.11.31.182', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Unable to create driver instance in 3rd attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.Unable to Create Driver Instance Failed to start execution - Access denied - bad credentials
+Command duration or timeout: 236 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11541', ip: '10.11.31.182', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Unable to create driver instance in 4th attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.Unable to Create Driver Instance Failed to start execution - Access denied - bad credentials
+Command duration or timeout: 9.67 seconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11541', ip: '10.11.31.182', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Unable to create driver instance in 4th attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.Unable to Create Driver Instance Failed to start execution - Access denied - bad credentials
+Command duration or timeout: 9.66 seconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11541', ip: '10.11.31.182', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Unable to create driver instance in 5th attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.Unable to Create Driver Instance Failed to start execution - Access denied - bad credentials
+Command duration or timeout: 267 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11541', ip: '10.11.31.182', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Unable to create driver instance in 5th attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.Unable to Create Driver Instance Failed to start execution - Access denied - bad credentials
+Command duration or timeout: 251 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11541', ip: '10.11.31.182', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Unable to create driver instance in 6th attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.Unable to Create Driver Instance Failed to start execution - Access denied - bad credentials
+Command duration or timeout: 282 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11541', ip: '10.11.31.182', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+]]></system-err>
+  </testcase>
+  <testcase name="Search Keyword Inline Data" classname="com.qmetry.qaf.automation.step.client.DataDrivenScenario" time="0">
+    <skipped message="Timed out after 60 seconds: Unable to create driver instance in 6th attempt with retry timeout of 60 seconds. You can check/set value of &apos;driver.init.retry.timeout&apos; appropriately to set retry timeout on driver initialization failure.&#10;Failed to start execution - Access denied - bad credentials&#10;Command duration or timeout: 251 milliseconds&#10;Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;&#10;System info: host: &apos;ICPL11541&apos;, ip: &apos;10.11.31.182&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.8.0_111&apos;&#10;Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver"/>
+    <system-out><![CDATA[TestNG: Initializing Driver...browser_str:perfectoRemoteDriver,base_url:,sel_server:https://partners.perfectomobile.com/nexperience/perfectomobile/wd/hub,port:80 
+TestNG: Driver: perfectoRemoteDriver 
+TestNG: Driver: perfectoRemoteDriver 
+]]></system-out>
+    <system-err><![CDATA[Unable to create driver instance in 1st attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.Unable to Create Driver Instance Failed to start execution - Access denied - bad credentials
+Command duration or timeout: 281 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11541', ip: '10.11.31.182', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Unable to create driver instance in 6th attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.Unable to Create Driver Instance Failed to start execution - Access denied - bad credentials
+Command duration or timeout: 251 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11541', ip: '10.11.31.182', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+]]></system-err>
+  </testcase>
+  <testcase name="Search Keyword Inline Data" classname="com.qmetry.qaf.automation.step.client.DataDrivenScenario" time="0">
+    <skipped message="Timed out after 60 seconds: Unable to create driver instance in 7th attempt with retry timeout of 60 seconds. You can check/set value of &apos;driver.init.retry.timeout&apos; appropriately to set retry timeout on driver initialization failure.&#10;Failed to start execution - Access denied - bad credentials&#10;Command duration or timeout: 251 milliseconds&#10;Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;&#10;System info: host: &apos;ICPL11541&apos;, ip: &apos;10.11.31.182&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.8.0_111&apos;&#10;Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver"/>
+    <system-out><![CDATA[TestNG: Initializing Driver...browser_str:perfectoRemoteDriver,base_url:,sel_server:https://partners.perfectomobile.com/nexperience/perfectomobile/wd/hub,port:80 
+TestNG: Driver: perfectoRemoteDriver 
+TestNG: Driver: perfectoRemoteDriver 
+TestNG: Driver: perfectoRemoteDriver 
+TestNG: Driver: perfectoRemoteDriver 
+TestNG: Driver: perfectoRemoteDriver 
+TestNG: Driver: perfectoRemoteDriver 
+TestNG: Driver: perfectoRemoteDriver 
+TestNG: Driver: perfectoRemoteDriver 
+TestNG: Driver: perfectoRemoteDriver 
+TestNG: Driver: perfectoRemoteDriver 
+TestNG: Driver: perfectoRemoteDriver 
+TestNG: Driver: perfectoRemoteDriver 
+]]></system-out>
+    <system-err><![CDATA[Unable to create driver instance in 1st attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.Unable to Create Driver Instance Failed to start execution - Access denied - bad credentials
+Command duration or timeout: 251 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11541', ip: '10.11.31.182', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Unable to create driver instance in 2nd attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.Unable to Create Driver Instance Failed to start execution - Access denied - bad credentials
+Command duration or timeout: 251 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11541', ip: '10.11.31.182', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Unable to create driver instance in 2nd attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.Unable to Create Driver Instance Failed to start execution - Access denied - bad credentials
+Command duration or timeout: 251 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11541', ip: '10.11.31.182', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Unable to create driver instance in 3rd attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.Unable to Create Driver Instance Failed to start execution - Access denied - bad credentials
+Command duration or timeout: 251 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11541', ip: '10.11.31.182', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Unable to create driver instance in 3rd attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.Unable to Create Driver Instance Failed to start execution - Access denied - bad credentials
+Command duration or timeout: 251 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11541', ip: '10.11.31.182', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Unable to create driver instance in 4th attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.Unable to Create Driver Instance Failed to start execution - Access denied - bad credentials
+Command duration or timeout: 268 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11541', ip: '10.11.31.182', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Unable to create driver instance in 4th attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.Unable to Create Driver Instance Failed to start execution - Access denied - bad credentials
+Command duration or timeout: 251 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11541', ip: '10.11.31.182', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Unable to create driver instance in 5th attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.Unable to Create Driver Instance Failed to start execution - Access denied - bad credentials
+Command duration or timeout: 239 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11541', ip: '10.11.31.182', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Unable to create driver instance in 5th attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.Unable to Create Driver Instance Failed to start execution - Access denied - bad credentials
+Command duration or timeout: 251 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11541', ip: '10.11.31.182', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Unable to create driver instance in 6th attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.Unable to Create Driver Instance Failed to start execution - Access denied - bad credentials
+Command duration or timeout: 251 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11541', ip: '10.11.31.182', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Unable to create driver instance in 6th attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.Unable to Create Driver Instance Failed to start execution - Access denied - bad credentials
+Command duration or timeout: 235 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11541', ip: '10.11.31.182', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Unable to create driver instance in 7th attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.Unable to Create Driver Instance Failed to start execution - Access denied - bad credentials
+Command duration or timeout: 251 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11541', ip: '10.11.31.182', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+]]></system-err>
+  </testcase>
+  <testcase name="Search Keyword Inline Data" classname="com.qmetry.qaf.automation.step.client.DataDrivenScenario" time="0">
+    <skipped message="Timed out after 60 seconds: Unable to create driver instance in 7th attempt with retry timeout of 60 seconds. You can check/set value of &apos;driver.init.retry.timeout&apos; appropriately to set retry timeout on driver initialization failure.&#10;Failed to start execution - Access denied - bad credentials&#10;Command duration or timeout: 251 milliseconds&#10;Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;&#10;System info: host: &apos;ICPL11541&apos;, ip: &apos;10.11.31.182&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.8.0_111&apos;&#10;Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver"/>
+    <system-out><![CDATA[TestNG: Initializing Driver...browser_str:perfectoRemoteDriver,base_url:,sel_server:https://partners.perfectomobile.com/nexperience/perfectomobile/wd/hub,port:80 
+TestNG: Driver: perfectoRemoteDriver 
+TestNG: Driver: perfectoRemoteDriver 
+]]></system-out>
+    <system-err><![CDATA[Unable to create driver instance in 1st attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.Unable to Create Driver Instance Failed to start execution - Access denied - bad credentials
+Command duration or timeout: 250 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11541', ip: '10.11.31.182', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Unable to create driver instance in 7th attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.Unable to Create Driver Instance Failed to start execution - Access denied - bad credentials
+Command duration or timeout: 251 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11541', ip: '10.11.31.182', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+]]></system-err>
+  </testcase>
+  <testcase name="Search Keyword XML Data" classname="com.qmetry.qaf.automation.step.client.DataDrivenScenario" time="0">
+    <skipped message="Timed out after 60 seconds: Unable to create driver instance in 7th attempt with retry timeout of 60 seconds. You can check/set value of &apos;driver.init.retry.timeout&apos; appropriately to set retry timeout on driver initialization failure.&#10;Failed to start execution - Access denied - bad credentials&#10;Command duration or timeout: 235 milliseconds&#10;Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;&#10;System info: host: &apos;ICPL11541&apos;, ip: &apos;10.11.31.182&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.8.0_111&apos;&#10;Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver"/>
+    <system-out><![CDATA[TestNG: Initializing Driver...browser_str:perfectoRemoteDriver,base_url:,sel_server:https://partners.perfectomobile.com/nexperience/perfectomobile/wd/hub,port:80 
+TestNG: Driver: perfectoRemoteDriver 
+TestNG: Driver: perfectoRemoteDriver 
+TestNG: Driver: perfectoRemoteDriver 
+TestNG: Driver: perfectoRemoteDriver 
+TestNG: Driver: perfectoRemoteDriver 
+TestNG: Driver: perfectoRemoteDriver 
+TestNG: Driver: perfectoRemoteDriver 
+TestNG: Driver: perfectoRemoteDriver 
+TestNG: Driver: perfectoRemoteDriver 
+TestNG: Driver: perfectoRemoteDriver 
+TestNG: Driver: perfectoRemoteDriver 
+]]></system-out>
+    <system-err><![CDATA[Unable to create driver instance in 1st attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.Unable to Create Driver Instance Failed to start execution - Access denied - bad credentials
+Command duration or timeout: 251 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11541', ip: '10.11.31.182', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Unable to create driver instance in 2nd attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.Unable to Create Driver Instance Failed to start execution - Access denied - bad credentials
+Command duration or timeout: 251 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11541', ip: '10.11.31.182', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Unable to create driver instance in 2nd attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.Unable to Create Driver Instance Failed to start execution - Access denied - bad credentials
+Command duration or timeout: 251 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11541', ip: '10.11.31.182', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Unable to create driver instance in 3rd attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.Unable to Create Driver Instance Failed to start execution - Access denied - bad credentials
+Command duration or timeout: 251 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11541', ip: '10.11.31.182', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Unable to create driver instance in 3rd attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.Unable to Create Driver Instance Failed to start execution - Access denied - bad credentials
+Command duration or timeout: 251 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11541', ip: '10.11.31.182', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Unable to create driver instance in 4th attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.Unable to Create Driver Instance Failed to start execution - Access denied - bad credentials
+Command duration or timeout: 235 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11541', ip: '10.11.31.182', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Unable to create driver instance in 4th attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.Unable to Create Driver Instance Failed to start execution - Access denied - bad credentials
+Command duration or timeout: 251 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11541', ip: '10.11.31.182', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Unable to create driver instance in 5th attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.Unable to Create Driver Instance Failed to start execution - Access denied - bad credentials
+Command duration or timeout: 3.94 seconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11541', ip: '10.11.31.182', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Unable to create driver instance in 6th attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.Unable to Create Driver Instance Failed to start execution - Access denied - bad credentials
+Command duration or timeout: 250 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11541', ip: '10.11.31.182', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Unable to create driver instance in 7th attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.Unable to Create Driver Instance Failed to start execution - Access denied - bad credentials
+Command duration or timeout: 235 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11541', ip: '10.11.31.182', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+]]></system-err>
+  </testcase>
+  <testcase name="Search Keyword XML Data" classname="com.qmetry.qaf.automation.step.client.DataDrivenScenario" time="0">
+    <skipped message="Timed out after 60 seconds: Unable to create driver instance in 5th attempt with retry timeout of 60 seconds. You can check/set value of &apos;driver.init.retry.timeout&apos; appropriately to set retry timeout on driver initialization failure.&#10;Failed to start execution - Access denied - bad credentials&#10;Command duration or timeout: 65.44 seconds&#10;Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;&#10;System info: host: &apos;ICPL11541&apos;, ip: &apos;10.11.31.182&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.8.0_111&apos;&#10;Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver"/>
+    <system-out><![CDATA[TestNG: Initializing Driver...browser_str:perfectoRemoteDriver,base_url:,sel_server:https://partners.perfectomobile.com/nexperience/perfectomobile/wd/hub,port:80 
+TestNG: Driver: perfectoRemoteDriver 
+TestNG: Driver: perfectoRemoteDriver 
+TestNG: Driver: perfectoRemoteDriver 
+TestNG: Driver: perfectoRemoteDriver 
+]]></system-out>
+    <system-err><![CDATA[Unable to create driver instance in 1st attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.Unable to Create Driver Instance Failed to start execution - Access denied - bad credentials
+Command duration or timeout: 231 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11541', ip: '10.11.31.182', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Unable to create driver instance in 2nd attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.Unable to Create Driver Instance Failed to start execution - Access denied - bad credentials
+Command duration or timeout: 248 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11541', ip: '10.11.31.182', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Unable to create driver instance in 3rd attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.Unable to Create Driver Instance Failed to start execution - Access denied - bad credentials
+Command duration or timeout: 252 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11541', ip: '10.11.31.182', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Unable to create driver instance in 4th attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.Unable to Create Driver Instance Failed to start execution - Access denied - bad credentials
+Command duration or timeout: 407 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11541', ip: '10.11.31.182', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Unable to create driver instance in 5th attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.Unable to Create Driver Instance Failed to start execution - Access denied - bad credentials
+Command duration or timeout: 65.44 seconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11541', ip: '10.11.31.182', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+]]></system-err>
+  </testcase>
+  <testcase name="Search Keyword XML Data" classname="com.qmetry.qaf.automation.step.client.DataDrivenScenario" time="0">
+    <skipped message="Timed out after 60 seconds: Unable to create driver instance in 7th attempt with retry timeout of 60 seconds. You can check/set value of &apos;driver.init.retry.timeout&apos; appropriately to set retry timeout on driver initialization failure.&#10;Failed to start execution - Access denied - bad credentials&#10;Command duration or timeout: 266 milliseconds&#10;Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;&#10;System info: host: &apos;ICPL11541&apos;, ip: &apos;10.11.31.182&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.8.0_111&apos;&#10;Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver"/>
+    <system-out><![CDATA[TestNG: Initializing Driver...browser_str:perfectoRemoteDriver,base_url:,sel_server:https://partners.perfectomobile.com/nexperience/perfectomobile/wd/hub,port:80 
+TestNG: Driver: perfectoRemoteDriver 
+TestNG: Driver: perfectoRemoteDriver 
+TestNG: Driver: perfectoRemoteDriver 
+TestNG: Driver: perfectoRemoteDriver 
+TestNG: Driver: perfectoRemoteDriver 
+TestNG: Driver: perfectoRemoteDriver 
+]]></system-out>
+    <system-err><![CDATA[Unable to create driver instance in 1st attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.Unable to Create Driver Instance Failed to start execution - Access denied - bad credentials
+Command duration or timeout: 1.22 seconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11541', ip: '10.11.31.182', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Unable to create driver instance in 5th attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.Unable to Create Driver Instance Failed to start execution - Access denied - bad credentials
+Command duration or timeout: 251 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11541', ip: '10.11.31.182', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Unable to create driver instance in 6th attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.Unable to Create Driver Instance Failed to start execution - Access denied - bad credentials
+Command duration or timeout: 250 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11541', ip: '10.11.31.182', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Unable to create driver instance in 2nd attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.Unable to Create Driver Instance Failed to start execution - Access denied - bad credentials
+Command duration or timeout: 1.10 seconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11541', ip: '10.11.31.182', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Unable to create driver instance in 7th attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.Unable to Create Driver Instance Failed to start execution - Access denied - bad credentials
+Command duration or timeout: 266 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11541', ip: '10.11.31.182', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+]]></system-err>
+  </testcase>
+  <testcase name="Search Keyword XML Data" classname="com.qmetry.qaf.automation.step.client.DataDrivenScenario" time="0">
+    <skipped message="Timed out after 60 seconds: Unable to create driver instance in 7th attempt with retry timeout of 60 seconds. You can check/set value of &apos;driver.init.retry.timeout&apos; appropriately to set retry timeout on driver initialization failure.&#10;Failed to start execution - Access denied - bad credentials&#10;Command duration or timeout: 254 milliseconds&#10;Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;&#10;System info: host: &apos;ICPL11541&apos;, ip: &apos;10.11.31.182&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.8.0_111&apos;&#10;Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver"/>
+    <system-out><![CDATA[TestNG: loading csv data file: src/main/resources/data/testData.csv 
+TestNG: Initializing Driver...browser_str:perfectoRemoteDriver,base_url:,sel_server:https://partners.perfectomobile.com/nexperience/perfectomobile/wd/hub,port:80 
+TestNG: Driver: perfectoRemoteDriver 
+TestNG: Driver: perfectoRemoteDriver 
+TestNG: Driver: perfectoRemoteDriver 
+TestNG: Driver: perfectoRemoteDriver 
+TestNG: Driver: perfectoRemoteDriver 
+TestNG: Driver: perfectoRemoteDriver 
+TestNG: Driver: perfectoRemoteDriver 
+TestNG: Driver: perfectoRemoteDriver 
+TestNG: Driver: perfectoRemoteDriver 
+]]></system-out>
+    <system-err><![CDATA[Unable to create driver instance in 3rd attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.Unable to Create Driver Instance Failed to start execution - Access denied - bad credentials
+Command duration or timeout: 282 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11541', ip: '10.11.31.182', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Unable to create driver instance in 1st attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.Unable to Create Driver Instance Failed to start execution - Access denied - bad credentials
+Command duration or timeout: 250 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11541', ip: '10.11.31.182', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Unable to create driver instance in 4th attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.Unable to Create Driver Instance Failed to start execution - Access denied - bad credentials
+Command duration or timeout: 267 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11541', ip: '10.11.31.182', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Unable to create driver instance in 2nd attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.Unable to Create Driver Instance Failed to start execution - Access denied - bad credentials
+Command duration or timeout: 314 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11541', ip: '10.11.31.182', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Unable to create driver instance in 5th attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.Unable to Create Driver Instance Failed to start execution - Access denied - bad credentials
+Command duration or timeout: 235 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11541', ip: '10.11.31.182', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Unable to create driver instance in 3rd attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.Unable to Create Driver Instance Failed to start execution - Access denied - bad credentials
+Command duration or timeout: 438 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11541', ip: '10.11.31.182', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Unable to create driver instance in 6th attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.Unable to Create Driver Instance Failed to start execution - Access denied - bad credentials
+Command duration or timeout: 266 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11541', ip: '10.11.31.182', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Unable to create driver instance in 4th attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.Unable to Create Driver Instance Failed to start execution - Access denied - bad credentials
+Command duration or timeout: 251 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11541', ip: '10.11.31.182', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Unable to create driver instance in 7th attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.Unable to Create Driver Instance Failed to start execution - Access denied - bad credentials
+Command duration or timeout: 254 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11541', ip: '10.11.31.182', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+]]></system-err>
+  </testcase>
+  <testcase name="Search Keyword CSV Data" classname="com.qmetry.qaf.automation.step.client.DataDrivenScenario" time="0">
+    <skipped message="Timed out after 60 seconds: Unable to create driver instance in 7th attempt with retry timeout of 60 seconds. You can check/set value of &apos;driver.init.retry.timeout&apos; appropriately to set retry timeout on driver initialization failure.&#10;Failed to start execution - Access denied - bad credentials&#10;Command duration or timeout: 306 milliseconds&#10;Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;&#10;System info: host: &apos;ICPL11541&apos;, ip: &apos;10.11.31.182&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.8.0_111&apos;&#10;Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver"/>
+    <system-out><![CDATA[TestNG: loading csv data file: src/main/resources/data/testData.csv 
+TestNG: Initializing Driver...browser_str:perfectoRemoteDriver,base_url:,sel_server:https://partners.perfectomobile.com/nexperience/perfectomobile/wd/hub,port:80 
+TestNG: Driver: perfectoRemoteDriver 
+TestNG: Driver: perfectoRemoteDriver 
+TestNG: Driver: perfectoRemoteDriver 
+TestNG: Driver: perfectoRemoteDriver 
+TestNG: Driver: perfectoRemoteDriver 
+]]></system-out>
+    <system-err><![CDATA[Unable to create driver instance in 1st attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.Unable to Create Driver Instance Failed to start execution - Access denied - bad credentials
+Command duration or timeout: 236 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11541', ip: '10.11.31.182', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Unable to create driver instance in 5th attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.Unable to Create Driver Instance Failed to start execution - Access denied - bad credentials
+Command duration or timeout: 269 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11541', ip: '10.11.31.182', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Unable to create driver instance in 2nd attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.Unable to Create Driver Instance Failed to start execution - Access denied - bad credentials
+Command duration or timeout: 251 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11541', ip: '10.11.31.182', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Unable to create driver instance in 6th attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.Unable to Create Driver Instance Failed to start execution - Access denied - bad credentials
+Command duration or timeout: 283 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11541', ip: '10.11.31.182', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Unable to create driver instance in 3rd attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.Unable to Create Driver Instance Failed to start execution - Access denied - bad credentials
+Command duration or timeout: 235 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11541', ip: '10.11.31.182', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Unable to create driver instance in 7th attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.Unable to Create Driver Instance Failed to start execution - Access denied - bad credentials
+Command duration or timeout: 306 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11541', ip: '10.11.31.182', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+]]></system-err>
+  </testcase>
+  <testcase name="Search Keyword CSV Data" classname="com.qmetry.qaf.automation.step.client.DataDrivenScenario" time="0">
+    <skipped message="Timed out after 60 seconds: Unable to create driver instance in 7th attempt with retry timeout of 60 seconds. You can check/set value of &apos;driver.init.retry.timeout&apos; appropriately to set retry timeout on driver initialization failure.&#10;Failed to start execution - Access denied - bad credentials&#10;Command duration or timeout: 250 milliseconds&#10;Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;&#10;System info: host: &apos;ICPL11541&apos;, ip: &apos;10.11.31.182&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.8.0_111&apos;&#10;Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver"/>
+    <system-out><![CDATA[TestNG: Initializing Driver...browser_str:perfectoRemoteDriver,base_url:,sel_server:https://partners.perfectomobile.com/nexperience/perfectomobile/wd/hub,port:80 
+TestNG: Driver: perfectoRemoteDriver 
+TestNG: Driver: perfectoRemoteDriver 
+TestNG: Driver: perfectoRemoteDriver 
+TestNG: Driver: perfectoRemoteDriver 
+TestNG: Driver: perfectoRemoteDriver 
+TestNG: Driver: perfectoRemoteDriver 
+TestNG: Driver: perfectoRemoteDriver 
+TestNG: Driver: perfectoRemoteDriver 
+TestNG: Driver: perfectoRemoteDriver 
+]]></system-out>
+    <system-err><![CDATA[Unable to create driver instance in 1st attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.Unable to Create Driver Instance Failed to start execution - Access denied - bad credentials
+Command duration or timeout: 237 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11541', ip: '10.11.31.182', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Unable to create driver instance in 4th attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.Unable to Create Driver Instance Failed to start execution - Access denied - bad credentials
+Command duration or timeout: 258 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11541', ip: '10.11.31.182', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Unable to create driver instance in 2nd attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.Unable to Create Driver Instance Failed to start execution - Access denied - bad credentials
+Command duration or timeout: 259 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11541', ip: '10.11.31.182', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Unable to create driver instance in 3rd attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.Unable to Create Driver Instance Failed to start execution - Access denied - bad credentials
+Command duration or timeout: 236 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11541', ip: '10.11.31.182', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Unable to create driver instance in 5th attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.Unable to Create Driver Instance Failed to start execution - Access denied - bad credentials
+Command duration or timeout: 1.34 seconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11541', ip: '10.11.31.182', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Unable to create driver instance in 4th attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.Unable to Create Driver Instance Failed to start execution - Access denied - bad credentials
+Command duration or timeout: 251 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11541', ip: '10.11.31.182', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Unable to create driver instance in 6th attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.Unable to Create Driver Instance Failed to start execution - Access denied - bad credentials
+Command duration or timeout: 250 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11541', ip: '10.11.31.182', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Unable to create driver instance in 7th attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.Unable to Create Driver Instance Failed to start execution - Access denied - bad credentials
+Command duration or timeout: 250 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11541', ip: '10.11.31.182', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+]]></system-err>
+  </testcase>
+  <testcase name="Search Keyword CSV Data" classname="com.qmetry.qaf.automation.step.client.DataDrivenScenario" time="0">
+    <skipped message="Timed out after 60 seconds: Unable to create driver instance in 7th attempt with retry timeout of 60 seconds. You can check/set value of &apos;driver.init.retry.timeout&apos; appropriately to set retry timeout on driver initialization failure.&#10;Failed to start execution - Access denied - bad credentials&#10;Command duration or timeout: 244 milliseconds&#10;Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;&#10;System info: host: &apos;ICPL11541&apos;, ip: &apos;10.11.31.182&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.8.0_111&apos;&#10;Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver"/>
+    <system-out><![CDATA[TestNG: Initializing Driver...browser_str:perfectoRemoteDriver,base_url:,sel_server:https://partners.perfectomobile.com/nexperience/perfectomobile/wd/hub,port:80 
+TestNG: Driver: perfectoRemoteDriver 
+TestNG: Driver: perfectoRemoteDriver 
+TestNG: Driver: perfectoRemoteDriver 
+TestNG: Driver: perfectoRemoteDriver 
+TestNG: Driver: perfectoRemoteDriver 
+]]></system-out>
+    <system-err><![CDATA[Unable to create driver instance in 1st attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.Unable to Create Driver Instance Failed to start execution - Access denied - bad credentials
+Command duration or timeout: 250 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11541', ip: '10.11.31.182', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Unable to create driver instance in 5th attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.Unable to Create Driver Instance Failed to start execution - Access denied - bad credentials
+Command duration or timeout: 1.30 seconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11541', ip: '10.11.31.182', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Unable to create driver instance in 2nd attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.Unable to Create Driver Instance Failed to start execution - Access denied - bad credentials
+Command duration or timeout: 251 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11541', ip: '10.11.31.182', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Unable to create driver instance in 6th attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.Unable to Create Driver Instance Failed to start execution - Access denied - bad credentials
+Command duration or timeout: 376 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11541', ip: '10.11.31.182', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Unable to create driver instance in 3rd attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.Unable to Create Driver Instance Failed to start execution - Access denied - bad credentials
+Command duration or timeout: 226 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11541', ip: '10.11.31.182', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Unable to create driver instance in 7th attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.Unable to Create Driver Instance Failed to start execution - Access denied - bad credentials
+Command duration or timeout: 244 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11541', ip: '10.11.31.182', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+]]></system-err>
+  </testcase>
+  <testcase name="Search Keyword CSV Data" classname="com.qmetry.qaf.automation.step.client.DataDrivenScenario" time="0">
+    <skipped message="Timed out after 60 seconds: Unable to create driver instance in 7th attempt with retry timeout of 60 seconds. You can check/set value of &apos;driver.init.retry.timeout&apos; appropriately to set retry timeout on driver initialization failure.&#10;Failed to start execution - Access denied - bad credentials&#10;Command duration or timeout: 251 milliseconds&#10;Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;&#10;System info: host: &apos;ICPL11541&apos;, ip: &apos;10.11.31.182&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.8.0_111&apos;&#10;Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver"/>
+    <system-out><![CDATA[TestNG: Driver: perfectoRemoteDriver 
+TestNG: Driver: perfectoRemoteDriver 
+TestNG: Driver: perfectoRemoteDriver 
+TestNG: Driver: perfectoRemoteDriver 
+]]></system-out>
+    <system-err><![CDATA[Unable to create driver instance in 4th attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.Unable to Create Driver Instance Failed to start execution - Access denied - bad credentials
+Command duration or timeout: 251 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11541', ip: '10.11.31.182', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Unable to create driver instance in 5th attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.Unable to Create Driver Instance Failed to start execution - Access denied - bad credentials
+Command duration or timeout: 1.03 seconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11541', ip: '10.11.31.182', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Unable to create driver instance in 6th attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.Unable to Create Driver Instance Failed to start execution - Access denied - bad credentials
+Command duration or timeout: 282 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11541', ip: '10.11.31.182', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Unable to create driver instance in 7th attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.Unable to Create Driver Instance Failed to start execution - Access denied - bad credentials
+Command duration or timeout: 251 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11541', ip: '10.11.31.182', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+]]></system-err>
+  </testcase>
+</testsuite>

@@ -1,0 +1,141 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "I_am_on_Google_Search_Page",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=http://www.google.com/}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 3620
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "I_search_for",
+      "args": [
+        "[quantum perfecto]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=q, using=name}"
+          ],
+          "result": "id: 9",
+          "subLogs": [],
+          "duration": 510
+        },
+        {
+          "commandName": "clearElement",
+          "args": [
+            "By.name: q",
+            "{\"id\":\"9\"}"
+          ],
+          "result": "clearElement:null",
+          "subLogs": [],
+          "duration": 526
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=q, using=name}"
+          ],
+          "result": "id: 10",
+          "subLogs": [],
+          "duration": 499
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.name: q",
+            "{\"id\":\"10\",\"value\":[\"quantum perfecto\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 573
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=btnG, using=name}"
+          ],
+          "result": "id: 11",
+          "subLogs": [],
+          "duration": 460
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.name: btnG",
+            "{\"id\":\"11\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 531
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "it_should_have_in_search_results",
+      "args": [
+        "[Introducing Quantum Framework]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=Introducing Quantum Framework, using=partial link text}"
+          ],
+          "result": "[id: 12]",
+          "subLogs": [],
+          "duration": 1864
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given I am on Google Search Page",
+      "type": "TestStepPass",
+      "duration": 3621,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When I search for \"quantum perfecto\"",
+      "type": "TestStepPass",
+      "duration": 3104,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then it should have \"Introducing Quantum Framework\" in search results",
+      "type": "TestStepPass",
+      "duration": 1866,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Expected Introducing Quantum Framework present : Actual Introducing Quantum Framework present",
+          "type": "Pass",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    }
+  ]
+}

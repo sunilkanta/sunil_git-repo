@@ -1,0 +1,46 @@
+{
+  "total": 8,
+  "pass": 0,
+  "fail": 0,
+  "skip": 8,
+  "classes": [
+    "com.qmetry.qaf.automation.step.client.Scenario",
+    "com.qmetry.qaf.automation.step.client.DataDrivenScenario"
+  ],
+  "envInfo": {
+    "browser-desired-capabilities": {
+      "password": "Test!234",
+      "automationName": "Appium",
+      "takesScreenshot": true,
+      "browserName": "MobileOS",
+      "javascriptEnabled": true,
+      "model": "iPhone.*",
+      "user": "quantum-demo@perfectomobile.com",
+      "cssSelectorsEnabled": true
+    },
+    "browser-actual-capabilities": {},
+    "isfw-build-info": {
+      "qaf-Type": "core",
+      "qaf-Revision": "10-RC2",
+      "qaf-Version": "2.1",
+      "qaf-Build-Time": "30-Nov-2016 00:39:15"
+    },
+    "run-parameters": {
+      "driver.capabilities.model": "iPhone.*",
+      "resources": "src/main/resources/common",
+      "baseurl": ""
+    },
+    "execution-env-info": {
+      "java.arch": "64",
+      "java.vendor": "Oracle Corporation",
+      "java.version": "1.8.0_111",
+      "os.arch": "amd64",
+      "host": "ICPL11541",
+      "os.name": "Windows 8",
+      "user.name": "sunilkanta.das",
+      "os.version": "6.2"
+    }
+  },
+  "startTime": 1490944555233,
+  "endTime": 1490945035550
+}

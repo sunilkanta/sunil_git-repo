@@ -1,0 +1,14 @@
+{
+  "name": "Web Demo Suite",
+  "status": "unstable",
+  "tests": [
+    "WebScenariosAndroidTest",
+    "WebScenariosiOSTest"
+  ],
+  "total": 16,
+  "pass": 0,
+  "fail": 0,
+  "skip": 16,
+  "startTime": 1490944491373,
+  "endTime": 1490945035550
+}

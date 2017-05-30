@@ -1,0 +1,92 @@
+{
+  "total": 8,
+  "pass": 8,
+  "fail": 0,
+  "skip": 0,
+  "classes": [
+    "com.qmetry.qaf.automation.step.client.Scenario",
+    "com.qmetry.qaf.automation.step.client.DataDrivenScenario"
+  ],
+  "envInfo": {
+    "browser-desired-capabilities": {
+      "password": "demo123",
+      "automationName": "Appium",
+      "takesScreenshot": true,
+      "browserName": "MobileOS",
+      "javascriptEnabled": true,
+      "model": "iPhone.*",
+      "user": "is_user1@infostretch.com",
+      "cssSelectorsEnabled": true
+    },
+    "browser-actual-capabilities": {
+      "reportPdfUrl": "https://partners.reporting-01.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_17-03-31_09_41_07_36476",
+      "available": "false",
+      "language": "English",
+      "operatorCode": "310026",
+      "deviceName": "C996B233C51A72F3E80DB75A7CB580F200F398E8",
+      "deviceId": "C996B233C51A72F3E80DB75A7CB580F200F398E8",
+      "operatorName": "T-Mobile",
+      "resolution": "640x1136",
+      "platform": "ANY",
+      "wifiMacAddress": "a4:f1:e8:17:d1:8d",
+      "manufacturer": "Apple",
+      "mode": "CONNECTED",
+      "password": "",
+      "cradleId": "WF-CG28-33/VIRTUAL/02",
+      "osVersion": "9.3",
+      "automationName": "Appium",
+      "host": "partners.perfectomobile.com",
+      "singleTestReportUrl": "https://partners.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/170331/RemoteWebDriver_17-03-31_09_41_07_36476.xml&ownerId=is_user1@infostretch.com&sharingCode=f5712cda-37a2-491e-8ffe-129a666b9121",
+      "inUse": "true",
+      "takesScreenshot": "true",
+      "browserName": "MobileOS",
+      "javascriptEnabled": "true",
+      "model": "iPhone-SE",
+      "firmware": "9.3",
+      "rotatable": "true",
+      "testGridReportUrl": "https://partners.reporting-01.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_17-03-31_09_41_07_36476",
+      "os": "iOS",
+      "entityType": "remote_web_driver",
+      "allocatedTo": "is_user1@infostretch.com",
+      "offlineToken": "",
+      "serverConnector": "",
+      "executionId": "is_user1@infostretch.com_RemoteWebDriver_17-03-31_09_41_07_36476",
+      "phoneNumber": "+1-978-635-6909",
+      "webdriver.remote.sessionid": "7efc7b40-1d92-4963-bbd1-b6cea6c51b93",
+      "locationContextEnabled": "true",
+      "scriptName": "RemoteWebDriver",
+      "location": "NA-US-BOS",
+      "linkType": "lab",
+      "reportKey": "PRIVATE:RemoteWebDriver/170331/RemoteWebDriver_17-03-31_09_41_07_36476.xml",
+      "operatorCountry": "United States of America",
+      "windTunnelReportUrl": "https://partners.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/170331/RemoteWebDriver_17-03-31_09_41_07_36476.xml&ownerId=is_user1@infostretch.com&sharingCode=f5712cda-37a2-491e-8ffe-129a666b9121",
+      "user": "",
+      "operabilityRatingScore": "100",
+      "cssSelectorsEnabled": "true",
+      "status": "Connected"
+    },
+    "isfw-build-info": {
+      "qaf-Type": "core",
+      "qaf-Revision": "10-RC2",
+      "qaf-Version": "2.1",
+      "qaf-Build-Time": "30-Nov-2016 00:39:15"
+    },
+    "run-parameters": {
+      "driver.capabilities.model": "iPhone.*",
+      "resources": "src/main/resources/common",
+      "baseurl": ""
+    },
+    "execution-env-info": {
+      "java.arch": "64",
+      "java.vendor": "Oracle Corporation",
+      "java.version": "1.8.0_111",
+      "os.arch": "amd64",
+      "host": "ICPL11541",
+      "os.name": "Windows 8",
+      "user.name": "sunilkanta.das",
+      "os.version": "6.2"
+    }
+  },
+  "startTime": 1490953289327,
+  "endTime": 1490953370547
+}

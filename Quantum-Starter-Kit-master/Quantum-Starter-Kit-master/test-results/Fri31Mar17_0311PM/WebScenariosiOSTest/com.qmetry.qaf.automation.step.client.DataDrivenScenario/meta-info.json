@@ -1,0 +1,176 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "searchResult": "Introducing Quantum Framework",
+          "searchKey": "quantum perfecto",
+          "recId": "1"
+        }
+      ],
+      "metaData": {
+        "description": "",
+        "groups": [
+          "@WebDD",
+          "@Web"
+        ],
+        "JSON_DATA_TABLE": "[{\"searchResult\":\"Introducing Quantum Framework\",\"searchKey\":\"quantum perfecto\",\"recId\":\"1\"},{\"searchResult\":\"GitHub\",\"searchKey\":\"Project-Quantum Quantum-Starter-Kit\",\"recId\":\"2\"}]",
+        "lineNo": 20.0,
+        "name": "Search Keyword Inline Data",
+        "referece": "src/main/resources/scenarios/webSearch.feature",
+        "sign": "src.main.resources.scenarios.webSearch.feature.Search Keyword Inline Data( java.util.Map)[pri:1007, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3ef]"
+      },
+      "dependsOn": [],
+      "startTime": 1490953299957,
+      "duration": 9614,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 2,
+      "type": "test",
+      "args": [
+        {
+          "searchResult": "GitHub",
+          "searchKey": "Project-Quantum Quantum-Starter-Kit",
+          "recId": "2"
+        }
+      ],
+      "metaData": {
+        "description": "",
+        "groups": [
+          "@WebDD",
+          "@Web"
+        ],
+        "JSON_DATA_TABLE": "[{\"searchResult\":\"Introducing Quantum Framework\",\"searchKey\":\"quantum perfecto\",\"recId\":\"1\"},{\"searchResult\":\"GitHub\",\"searchKey\":\"Project-Quantum Quantum-Starter-Kit\",\"recId\":\"2\"}]",
+        "lineNo": 20.0,
+        "name": "Search Keyword Inline Data",
+        "Perfecto-report": "<a href=\"https://partners.reporting-01.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_17-03-31_09_41_07_36476\" target=\"_blank\">view</a>",
+        "referece": "src/main/resources/scenarios/webSearch.feature",
+        "resultFileName": "Search Keyword Inline DataXqm",
+        "sign": "src.main.resources.scenarios.webSearch.feature.Search Keyword Inline Data( java.util.Map)[pri:1007, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3ef]"
+      },
+      "dependsOn": [],
+      "startTime": 1490953309851,
+      "duration": 9093,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "recId": "1",
+          "searchKey": "quantum perfecto",
+          "searchResult": "Introducing Quantum Framework"
+        }
+      ],
+      "metaData": {
+        "description": "",
+        "groups": [
+          "@WebDDxml",
+          "@Web"
+        ],
+        "key": "demo.websearch.dataset",
+        "lineNo": 31.0,
+        "name": "Search Keyword XML Data",
+        "referece": "src/main/resources/scenarios/webSearch.feature",
+        "sign": "src.main.resources.scenarios.webSearch.feature.Search Keyword XML Data( java.util.Map)[pri:1008, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3f0]"
+      },
+      "dependsOn": [],
+      "startTime": 1490953319230,
+      "duration": 9494,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 2,
+      "type": "test",
+      "args": [
+        {
+          "recId": "2",
+          "searchKey": "Project-Quantum Quantum-Starter-Kit",
+          "searchResult": "GitHub"
+        }
+      ],
+      "metaData": {
+        "description": "",
+        "groups": [
+          "@WebDDxml",
+          "@Web"
+        ],
+        "key": "demo.websearch.dataset",
+        "lineNo": 31.0,
+        "name": "Search Keyword XML Data",
+        "Perfecto-report": "<a href=\"https://partners.reporting-01.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_17-03-31_09_41_07_36476\" target=\"_blank\">view</a>",
+        "referece": "src/main/resources/scenarios/webSearch.feature",
+        "resultFileName": "Search Keyword XML DataExF",
+        "sign": "src.main.resources.scenarios.webSearch.feature.Search Keyword XML Data( java.util.Map)[pri:1008, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3f0]"
+      },
+      "dependsOn": [],
+      "startTime": 1490953329005,
+      "duration": 9492,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "searchResult": "Introducing Quantum Framework",
+          "searchKey": "quantum perfecto"
+        }
+      ],
+      "metaData": {
+        "datafile": "src/main/resources/data/testData.csv",
+        "description": "",
+        "groups": [
+          "@WebDDcsv",
+          "@Web"
+        ],
+        "lineNo": 40.0,
+        "name": "Search Keyword CSV Data",
+        "referece": "src/main/resources/scenarios/webSearch.feature",
+        "sign": "src.main.resources.scenarios.webSearch.feature.Search Keyword CSV Data( java.util.Map)[pri:1009, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3f1]"
+      },
+      "dependsOn": [],
+      "startTime": 1490953338770,
+      "duration": 9319,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 2,
+      "type": "test",
+      "args": [
+        {
+          "searchResult": "GitHub",
+          "searchKey": "Project-Quantum Quantum-Starter-Kit "
+        }
+      ],
+      "metaData": {
+        "datafile": "src/main/resources/data/testData.csv",
+        "description": "",
+        "groups": [
+          "@WebDDcsv",
+          "@Web"
+        ],
+        "lineNo": 40,
+        "name": "Search Keyword CSV Data",
+        "Perfecto-report": "<a href=\"https://partners.reporting-01.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_17-03-31_09_41_07_36476\" target=\"_blank\">view</a>",
+        "referece": "src/main/resources/scenarios/webSearch.feature",
+        "resultFileName": "Search Keyword CSV DataVyU",
+        "sign": "src.main.resources.scenarios.webSearch.feature.Search Keyword CSV Data( java.util.Map)[pri:1009, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3f1]"
+      },
+      "dependsOn": [],
+      "startTime": 1490953348360,
+      "duration": 9399,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

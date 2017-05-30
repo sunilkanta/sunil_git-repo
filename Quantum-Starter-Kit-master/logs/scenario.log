@@ -1,0 +1,276 @@
+12:14:06 scenario.file.loc[Ljava.lang.String;@3eb7fc54
+12:14:07 loading feature file: D:\Quantum-Starter-Kit-master\Quantum-Starter-Kit-master\src\main\resources\scenarios\appiumCalc.feature
+12:14:07 Excluded SCENARIO - Appium Example Scenario:null
+12:14:07 loading feature file: D:\Quantum-Starter-Kit-master\Quantum-Starter-Kit-master\src\main\resources\scenarios\webSearch.feature
+12:14:07 total test found: 5
+12:14:07 scenario.file.loc[Ljava.lang.String;@2f4948e4
+12:14:07 loading feature file: D:\Quantum-Starter-Kit-master\Quantum-Starter-Kit-master\src\main\resources\scenarios\appiumCalc.feature
+12:14:07 Excluded SCENARIO - Appium Example Scenario:null
+12:14:07 loading feature file: D:\Quantum-Starter-Kit-master\Quantum-Starter-Kit-master\src\main\resources\scenarios\webSearch.feature
+12:14:07 total test found: 5
+12:20:08 scenario.file.loc[Ljava.lang.String;@3eb7fc54
+12:20:09 loading feature file: D:\Quantum-Starter-Kit-master\Quantum-Starter-Kit-master\src\main\resources\scenarios\appiumCalc.feature
+12:20:09 Excluded SCENARIO - Appium Example Scenario:null
+12:20:09 loading feature file: D:\Quantum-Starter-Kit-master\Quantum-Starter-Kit-master\src\main\resources\scenarios\webSearch.feature
+12:20:09 total test found: 5
+12:20:09 scenario.file.loc[Ljava.lang.String;@2f4948e4
+12:20:09 loading feature file: D:\Quantum-Starter-Kit-master\Quantum-Starter-Kit-master\src\main\resources\scenarios\appiumCalc.feature
+12:20:09 Excluded SCENARIO - Appium Example Scenario:null
+12:20:09 loading feature file: D:\Quantum-Starter-Kit-master\Quantum-Starter-Kit-master\src\main\resources\scenarios\webSearch.feature
+12:20:09 total test found: 5
+12:44:51 scenario.file.loc[Ljava.lang.String;@60611244
+12:44:51 loading feature file: D:\Quantum-Starter-Kit-master\Quantum-Starter-Kit-master\src\main\resources\scenarios\appiumCalc.feature
+12:44:51 Excluded SCENARIO - Appium Example Scenario:null
+12:44:51 loading feature file: D:\Quantum-Starter-Kit-master\Quantum-Starter-Kit-master\src\main\resources\scenarios\webSearch.feature
+12:44:51 total test found: 5
+12:44:51 scenario.file.loc[Ljava.lang.String;@2d7275fc
+12:44:51 loading feature file: D:\Quantum-Starter-Kit-master\Quantum-Starter-Kit-master\src\main\resources\scenarios\appiumCalc.feature
+12:44:51 Excluded SCENARIO - Appium Example Scenario:null
+12:44:51 loading feature file: D:\Quantum-Starter-Kit-master\Quantum-Starter-Kit-master\src\main\resources\scenarios\webSearch.feature
+12:44:51 total test found: 5
+15:11:06 scenario.file.loc[Ljava.lang.String;@3eb7fc54
+15:11:06 loading feature file: D:\Quantum-Starter-Kit-master\Quantum-Starter-Kit-master\src\main\resources\scenarios\appiumCalc.feature
+15:11:06 Excluded SCENARIO - Appium Example Scenario:null
+15:11:06 loading feature file: D:\Quantum-Starter-Kit-master\Quantum-Starter-Kit-master\src\main\resources\scenarios\webSearch.feature
+15:11:06 total test found: 5
+15:11:06 scenario.file.loc[Ljava.lang.String;@2f4948e4
+15:11:06 loading feature file: D:\Quantum-Starter-Kit-master\Quantum-Starter-Kit-master\src\main\resources\scenarios\appiumCalc.feature
+15:11:06 Excluded SCENARIO - Appium Example Scenario:null
+15:11:06 loading feature file: D:\Quantum-Starter-Kit-master\Quantum-Starter-Kit-master\src\main\resources\scenarios\webSearch.feature
+15:11:06 total test found: 5
+15:11:15 
+
+Executing scenario: Search Quantum - 
+15:11:15 pkg: com.qmetry.qaf.automation.step
+15:11:15 pkg: com.quantum.steps
+15:11:15 Found duplicate step to load [] with [lower] prority then []
+15:11:15 Found duplicate step to load [] with [lower] prority then []
+15:11:15 Found duplicate step to load [] with [lower] prority then []
+15:11:15 Invoking Teststep: Given I am on Google Search Page
+15:11:19 Completed Teststep: Given I am on Google Search Page
+15:11:19 Invoking Teststep: When I search for "quantum perfecto" with arguments: [quantum perfecto]
+15:11:23 Completed Teststep: When I search for "quantum perfecto" with arguments: [quantum perfecto]
+15:11:23 Invoking Teststep: Then it should have "Introducing Quantum Framework" in search results with arguments: [Introducing Quantum Framework]
+15:11:23 
+
+Executing scenario: Search Quantum - 
+15:11:23 pkg: com.qmetry.qaf.automation.step
+15:11:23 pkg: com.quantum.steps
+15:11:23 Found duplicate step to load [] with [lower] prority then []
+15:11:23 Found duplicate step to load [] with [lower] prority then []
+15:11:23 Found duplicate step to load [] with [lower] prority then []
+15:11:23 Invoking Teststep: Given I am on Google Search Page
+15:11:24 Completed Teststep: Given I am on Google Search Page
+15:11:24 Invoking Teststep: When I search for "quantum perfecto" with arguments: [quantum perfecto]
+15:11:25 Completed Teststep: Then it should have "Introducing Quantum Framework" in search results with arguments: [Introducing Quantum Framework]
+15:11:25 Invoking Teststep: Then I am on Google Search Page
+15:11:29 Completed Teststep: Then I am on Google Search Page
+15:11:29 Competed scenario: Search Quantum with status SUCESS
+15:11:29 Completed Teststep: When I search for "quantum perfecto" with arguments: [quantum perfecto]
+15:11:29 Invoking Teststep: Then it should have "Introducing Quantum Framework" in search results with arguments: [Introducing Quantum Framework]
+15:11:29 
+
+Executing scenario: Search Quantum with results - 
+15:11:29 Invoking Teststep: Given I am on Google Search Page
+15:11:33 Completed Teststep: Given I am on Google Search Page
+15:11:33 Invoking Teststep: When I search for "Project-Quantum Quantum-Starter-Kit" with arguments: [Project-Quantum Quantum-Starter-Kit]
+15:11:33 Completed Teststep: Then it should have "Introducing Quantum Framework" in search results with arguments: [Introducing Quantum Framework]
+15:11:33 Invoking Teststep: Then I am on Google Search Page
+15:11:34 Completed Teststep: Then I am on Google Search Page
+15:11:34 Competed scenario: Search Quantum with status SUCESS
+15:11:35 
+
+Executing scenario: Search Quantum with results - 
+15:11:35 Invoking Teststep: Given I am on Google Search Page
+15:11:35 Completed Teststep: Given I am on Google Search Page
+15:11:35 Invoking Teststep: When I search for "Project-Quantum Quantum-Starter-Kit" with arguments: [Project-Quantum Quantum-Starter-Kit]
+15:11:36 Completed Teststep: When I search for "Project-Quantum Quantum-Starter-Kit" with arguments: [Project-Quantum Quantum-Starter-Kit]
+15:11:36 Invoking Teststep: Then it should have following search results:["Starter Kit","GitHub"] with arguments: [["Starter Kit","GitHub"]]
+15:11:39 Completed Teststep: When I search for "Project-Quantum Quantum-Starter-Kit" with arguments: [Project-Quantum Quantum-Starter-Kit]
+15:11:39 Invoking Teststep: Then it should have following search results:["Starter Kit","GitHub"] with arguments: [["Starter Kit","GitHub"]]
+15:11:39 Completed Teststep: Then it should have following search results:["Starter Kit","GitHub"] with arguments: [["Starter Kit","GitHub"]]
+15:11:39 Competed scenario: Search Quantum with results with status SUCESS
+15:11:40 
+
+Executing scenario: Search Keyword Inline Data - 
+15:11:40 Test Data{searchResult=Introducing Quantum Framework, searchKey=quantum perfecto, recId=1}
+15:11:40 Invoking Teststep: Given I am on Google Search Page
+15:11:42 Completed Teststep: Then it should have following search results:["Starter Kit","GitHub"] with arguments: [["Starter Kit","GitHub"]]
+15:11:42 Competed scenario: Search Quantum with results with status SUCESS
+15:11:43 
+
+Executing scenario: Search Keyword Inline Data - 
+15:11:43 Test Data{searchResult=Introducing Quantum Framework, searchKey=quantum perfecto, recId=1}
+15:11:43 Invoking Teststep: Given I am on Google Search Page
+15:11:44 Completed Teststep: Given I am on Google Search Page
+15:11:44 Invoking Teststep: When I search for "${searchKey}" with arguments: [quantum perfecto]
+15:11:44 Completed Teststep: Given I am on Google Search Page
+15:11:44 Invoking Teststep: When I search for "${searchKey}" with arguments: [quantum perfecto]
+15:11:47 Completed Teststep: When I search for "quantum perfecto" with arguments: [quantum perfecto]
+15:11:47 Invoking Teststep: Then it should have "${searchResult}" in search results with arguments: [Introducing Quantum Framework]
+15:11:47 Completed Teststep: When I search for "quantum perfecto" with arguments: [quantum perfecto]
+15:11:47 Invoking Teststep: Then it should have "${searchResult}" in search results with arguments: [Introducing Quantum Framework]
+15:11:49 Completed Teststep: Then it should have "Introducing Quantum Framework" in search results with arguments: [Introducing Quantum Framework]
+15:11:49 Competed scenario: Search Keyword Inline Data with status SUCESS
+15:11:49 Completed Teststep: Then it should have "Introducing Quantum Framework" in search results with arguments: [Introducing Quantum Framework]
+15:11:49 Competed scenario: Search Keyword Inline Data with status SUCESS
+15:11:50 
+
+Executing scenario: Search Keyword Inline Data - 
+15:11:50 
+
+Executing scenario: Search Keyword Inline Data - 
+15:11:50 Test Data{searchResult=GitHub, searchKey=Project-Quantum Quantum-Starter-Kit, recId=2}
+15:11:50 Test Data{searchResult=GitHub, searchKey=Project-Quantum Quantum-Starter-Kit, recId=2}
+15:11:50 Invoking Teststep: Given I am on Google Search Page
+15:11:50 Invoking Teststep: Given I am on Google Search Page
+15:11:50 Completed Teststep: Given I am on Google Search Page
+15:11:50 Invoking Teststep: When I search for "${searchKey}" with arguments: [Project-Quantum Quantum-Starter-Kit]
+15:11:53 Completed Teststep: Given I am on Google Search Page
+15:11:53 Invoking Teststep: When I search for "${searchKey}" with arguments: [Project-Quantum Quantum-Starter-Kit]
+15:11:54 Completed Teststep: When I search for "Project-Quantum Quantum-Starter-Kit" with arguments: [Project-Quantum Quantum-Starter-Kit]
+15:11:54 Invoking Teststep: Then it should have "${searchResult}" in search results with arguments: [GitHub]
+15:11:57 Completed Teststep: Then it should have "GitHub" in search results with arguments: [GitHub]
+15:11:57 Competed scenario: Search Keyword Inline Data with status SUCESS
+15:11:57 
+
+Executing scenario: Search Keyword XML Data - 
+15:11:57 Test Data{recId=1, searchKey=quantum perfecto, searchResult=Introducing Quantum Framework}
+15:11:57 Invoking Teststep: Given I am on Google Search Page
+15:11:57 Completed Teststep: When I search for "Project-Quantum Quantum-Starter-Kit" with arguments: [Project-Quantum Quantum-Starter-Kit]
+15:11:57 Invoking Teststep: Then it should have "${searchResult}" in search results with arguments: [GitHub]
+15:11:58 Completed Teststep: Given I am on Google Search Page
+15:11:58 Invoking Teststep: When I search for "${searchKey}" with arguments: [quantum perfecto]
+15:11:58 Completed Teststep: Then it should have "GitHub" in search results with arguments: [GitHub]
+15:11:58 Competed scenario: Search Keyword Inline Data with status SUCESS
+15:11:59 
+
+Executing scenario: Search Keyword XML Data - 
+15:11:59 Test Data{recId=1, searchKey=quantum perfecto, searchResult=Introducing Quantum Framework}
+15:11:59 Invoking Teststep: Given I am on Google Search Page
+15:12:02 Completed Teststep: When I search for "quantum perfecto" with arguments: [quantum perfecto]
+15:12:02 Invoking Teststep: Then it should have "${searchResult}" in search results with arguments: [Introducing Quantum Framework]
+15:12:03 Completed Teststep: Given I am on Google Search Page
+15:12:03 Invoking Teststep: When I search for "${searchKey}" with arguments: [quantum perfecto]
+15:12:04 Completed Teststep: Then it should have "Introducing Quantum Framework" in search results with arguments: [Introducing Quantum Framework]
+15:12:04 Competed scenario: Search Keyword XML Data with status SUCESS
+15:12:04 
+
+Executing scenario: Search Keyword XML Data - 
+15:12:04 Test Data{recId=2, searchKey=Project-Quantum Quantum-Starter-Kit, searchResult=GitHub}
+15:12:04 Invoking Teststep: Given I am on Google Search Page
+15:12:05 Completed Teststep: Given I am on Google Search Page
+15:12:05 Invoking Teststep: When I search for "${searchKey}" with arguments: [Project-Quantum Quantum-Starter-Kit]
+15:12:07 Completed Teststep: When I search for "quantum perfecto" with arguments: [quantum perfecto]
+15:12:07 Invoking Teststep: Then it should have "${searchResult}" in search results with arguments: [Introducing Quantum Framework]
+15:12:08 Completed Teststep: Then it should have "Introducing Quantum Framework" in search results with arguments: [Introducing Quantum Framework]
+15:12:08 Competed scenario: Search Keyword XML Data with status SUCESS
+15:12:09 Completed Teststep: When I search for "Project-Quantum Quantum-Starter-Kit" with arguments: [Project-Quantum Quantum-Starter-Kit]
+15:12:09 Invoking Teststep: Then it should have "${searchResult}" in search results with arguments: [GitHub]
+15:12:09 
+
+Executing scenario: Search Keyword XML Data - 
+15:12:09 Test Data{recId=2, searchKey=Project-Quantum Quantum-Starter-Kit, searchResult=GitHub}
+15:12:09 Invoking Teststep: Given I am on Google Search Page
+15:12:11 Completed Teststep: Then it should have "GitHub" in search results with arguments: [GitHub]
+15:12:11 Competed scenario: Search Keyword XML Data with status SUCESS
+15:12:12 
+
+Executing scenario: Search Keyword CSV Data - 
+15:12:12 Test Data{searchResult=Introducing Quantum Framework, searchKey=quantum perfecto}
+15:12:12 Invoking Teststep: Given I am on Google Search Page
+15:12:12 Completed Teststep: Given I am on Google Search Page
+15:12:13 Invoking Teststep: When I search for "${searchKey}" with arguments: [Project-Quantum Quantum-Starter-Kit]
+15:12:13 Completed Teststep: Given I am on Google Search Page
+15:12:13 Invoking Teststep: When I search for "${searchKey}" with arguments: [quantum perfecto]
+15:12:16 Completed Teststep: When I search for "quantum perfecto" with arguments: [quantum perfecto]
+15:12:16 Invoking Teststep: Then it should have "${searchResult}" in search results with arguments: [Introducing Quantum Framework]
+15:12:17 Completed Teststep: When I search for "Project-Quantum Quantum-Starter-Kit" with arguments: [Project-Quantum Quantum-Starter-Kit]
+15:12:17 Invoking Teststep: Then it should have "${searchResult}" in search results with arguments: [GitHub]
+15:12:18 Completed Teststep: Then it should have "GitHub" in search results with arguments: [GitHub]
+15:12:18 Competed scenario: Search Keyword XML Data with status SUCESS
+15:12:18 Completed Teststep: Then it should have "Introducing Quantum Framework" in search results with arguments: [Introducing Quantum Framework]
+15:12:18 Competed scenario: Search Keyword CSV Data with status SUCESS
+15:12:19 
+
+Executing scenario: Search Keyword CSV Data - 
+15:12:19 Test Data{searchResult=Introducing Quantum Framework, searchKey=quantum perfecto}
+15:12:19 Invoking Teststep: Given I am on Google Search Page
+15:12:19 
+
+Executing scenario: Search Keyword CSV Data - 
+15:12:19 Test Data{searchResult=GitHub, searchKey=Project-Quantum Quantum-Starter-Kit }
+15:12:19 Invoking Teststep: Given I am on Google Search Page
+15:12:20 Completed Teststep: Given I am on Google Search Page
+15:12:20 Invoking Teststep: When I search for "${searchKey}" with arguments: [Project-Quantum Quantum-Starter-Kit ]
+15:12:22 Completed Teststep: Given I am on Google Search Page
+15:12:22 Invoking Teststep: When I search for "${searchKey}" with arguments: [quantum perfecto]
+15:12:24 Completed Teststep: When I search for "Project-Quantum Quantum-Starter-Kit " with arguments: [Project-Quantum Quantum-Starter-Kit ]
+15:12:24 Invoking Teststep: Then it should have "${searchResult}" in search results with arguments: [GitHub]
+15:12:26 Completed Teststep: When I search for "quantum perfecto" with arguments: [quantum perfecto]
+15:12:26 Invoking Teststep: Then it should have "${searchResult}" in search results with arguments: [Introducing Quantum Framework]
+15:12:26 Completed Teststep: Then it should have "GitHub" in search results with arguments: [GitHub]
+15:12:26 Competed scenario: Search Keyword CSV Data with status SUCESS
+15:12:28 Completed Teststep: Then it should have "Introducing Quantum Framework" in search results with arguments: [Introducing Quantum Framework]
+15:12:28 Competed scenario: Search Keyword CSV Data with status SUCESS
+15:12:28 
+
+Executing scenario: Search Keyword CSV Data - 
+15:12:28 Test Data{searchResult=GitHub, searchKey=Project-Quantum Quantum-Starter-Kit }
+15:12:28 Invoking Teststep: Given I am on Google Search Page
+15:12:31 Completed Teststep: Given I am on Google Search Page
+15:12:31 Invoking Teststep: When I search for "${searchKey}" with arguments: [Project-Quantum Quantum-Starter-Kit ]
+15:12:36 Completed Teststep: When I search for "Project-Quantum Quantum-Starter-Kit " with arguments: [Project-Quantum Quantum-Starter-Kit ]
+15:12:36 Invoking Teststep: Then it should have "${searchResult}" in search results with arguments: [GitHub]
+15:12:37 Completed Teststep: Then it should have "GitHub" in search results with arguments: [GitHub]
+15:12:37 Competed scenario: Search Keyword CSV Data with status SUCESS
+15:35:09 scenario.file.loc[Ljava.lang.String;@3eb7fc54
+15:35:09 loading feature file: D:\Quantum-Starter-Kit-master\Quantum-Starter-Kit-master\src\main\resources\scenarios\appiumCalc.feature
+15:35:09 Excluded SCENARIO - Appium Example Scenario:null
+15:35:09 loading feature file: D:\Quantum-Starter-Kit-master\Quantum-Starter-Kit-master\src\main\resources\scenarios\webSearch.feature
+15:35:09 total test found: 5
+15:35:10 scenario.file.loc[Ljava.lang.String;@2f4948e4
+15:35:10 loading feature file: D:\Quantum-Starter-Kit-master\Quantum-Starter-Kit-master\src\main\resources\scenarios\appiumCalc.feature
+15:35:10 Excluded SCENARIO - Appium Example Scenario:null
+15:35:10 loading feature file: D:\Quantum-Starter-Kit-master\Quantum-Starter-Kit-master\src\main\resources\scenarios\webSearch.feature
+15:35:10 total test found: 5
+15:36:30 scenario.file.loc[Ljava.lang.String;@3eb7fc54
+15:36:30 loading feature file: D:\Quantum-Starter-Kit-master\Quantum-Starter-Kit-master\src\main\resources\scenarios\appiumCalc.feature
+15:36:30 Excluded SCENARIO - Appium Example Scenario:null
+15:36:30 loading feature file: D:\Quantum-Starter-Kit-master\Quantum-Starter-Kit-master\src\main\resources\scenarios\webSearch.feature
+15:36:30 total test found: 5
+15:36:30 scenario.file.loc[Ljava.lang.String;@2f4948e4
+15:36:30 loading feature file: D:\Quantum-Starter-Kit-master\Quantum-Starter-Kit-master\src\main\resources\scenarios\appiumCalc.feature
+15:36:30 Excluded SCENARIO - Appium Example Scenario:null
+15:36:30 loading feature file: D:\Quantum-Starter-Kit-master\Quantum-Starter-Kit-master\src\main\resources\scenarios\webSearch.feature
+15:36:30 total test found: 5
+15:40:38 scenario.file.loc[Ljava.lang.String;@3eb7fc54
+15:40:38 loading feature file: D:\Quantum-Starter-Kit-master\Quantum-Starter-Kit-master\src\main\resources\scenarios\appiumCalc.feature
+15:40:38 Excluded SCENARIO - Appium Example Scenario:null
+15:40:38 loading feature file: D:\Quantum-Starter-Kit-master\Quantum-Starter-Kit-master\src\main\resources\scenarios\webSearch.feature
+15:40:38 total test found: 5
+15:40:38 scenario.file.loc[Ljava.lang.String;@2f4948e4
+15:40:38 loading feature file: D:\Quantum-Starter-Kit-master\Quantum-Starter-Kit-master\src\main\resources\scenarios\appiumCalc.feature
+15:40:38 Excluded SCENARIO - Appium Example Scenario:null
+15:40:38 loading feature file: D:\Quantum-Starter-Kit-master\Quantum-Starter-Kit-master\src\main\resources\scenarios\webSearch.feature
+15:40:38 total test found: 5
+15:47:23 scenario.file.loc[Ljava.lang.String;@3eb7fc54
+15:47:24 loading feature file: D:\Quantum-Starter-Kit-master\Quantum-Starter-Kit-master\src\main\resources\scenarios\appiumCalc.feature
+15:47:24 Excluded SCENARIO - Appium Example Scenario:null
+15:47:24 loading feature file: D:\Quantum-Starter-Kit-master\Quantum-Starter-Kit-master\src\main\resources\scenarios\webSearch.feature
+15:47:24 total test found: 5
+15:47:24 scenario.file.loc[Ljava.lang.String;@2f4948e4
+15:47:24 loading feature file: D:\Quantum-Starter-Kit-master\Quantum-Starter-Kit-master\src\main\resources\scenarios\appiumCalc.feature
+15:47:24 Excluded SCENARIO - Appium Example Scenario:null
+15:47:24 loading feature file: D:\Quantum-Starter-Kit-master\Quantum-Starter-Kit-master\src\main\resources\scenarios\webSearch.feature
+15:47:24 total test found: 5
+15:48:40 scenario.file.loc[Ljava.lang.String;@3eb7fc54
+15:48:40 loading feature file: D:\Quantum-Starter-Kit-master\Quantum-Starter-Kit-master\src\main\resources\scenarios\appiumCalc.feature
+15:48:40 Excluded SCENARIO - Appium Example Scenario:null
+15:48:40 loading feature file: D:\Quantum-Starter-Kit-master\Quantum-Starter-Kit-master\src\main\resources\scenarios\webSearch.feature
+15:48:40 total test found: 5
+15:48:40 scenario.file.loc[Ljava.lang.String;@2f4948e4
+15:48:40 loading feature file: D:\Quantum-Starter-Kit-master\Quantum-Starter-Kit-master\src\main\resources\scenarios\appiumCalc.feature
+15:48:40 Excluded SCENARIO - Appium Example Scenario:null
+15:48:40 loading feature file: D:\Quantum-Starter-Kit-master\Quantum-Starter-Kit-master\src\main\resources\scenarios\webSearch.feature
+15:48:40 total test found: 5
