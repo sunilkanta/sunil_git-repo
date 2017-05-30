@@ -8,7 +8,15 @@ import com.qmetry.qaf.automation.ui.webdriver.QAFWebElement;
 
 public class CaretrailTestPage extends WebDriverBaseTestPage<WebDriverTestPage> {
 
-	@FindBy(locator = "email.email.address")
+
+
+
+
+
+
+
+
+@FindBy(locator = "email.email.address")
 	private QAFWebElement emailEmailAddress;
 	@FindBy(locator = "password.password")
 	private QAFWebElement passwordPassword;
